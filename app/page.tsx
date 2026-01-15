@@ -4,6 +4,12 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+        <div className="w-full rounded-lg bg-blue-100 p-4 text-center text-blue-800 dark:bg-blue-900 dark:text-blue-100">
+          Welcome to our site!
+        </div>
+        <div className="w-full rounded-lg bg-green-100 p-4 text-center text-green-800 dark:bg-green-900 dark:text-green-100">
+          Glad to have you
+        </div>
         <Image
           className="dark:invert"
           src="/next.svg"

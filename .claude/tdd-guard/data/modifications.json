@@ -1,0 +1,12 @@
+{
+  "session_id": "60fe62fd-63b0-4c7f-8067-c1636868d1f1",
+  "transcript_path": "/Users/jtohta/.claude/projects/-Users-jtohta-projects-coasis-site/60fe62fd-63b0-4c7f-8067-c1636868d1f1.jsonl",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "/Users/jtohta/projects/coasis-site/app/page.tsx",
+    "old_string": "        <div className=\"w-full rounded-lg bg-blue-100 p-4 text-center text-blue-800 dark:bg-blue-900 dark:text-blue-100\">\n          Welcome to our site!\n        </div>",
+    "new_string": "        <div className=\"w-full rounded-lg bg-blue-100 p-4 text-center text-blue-800 dark:bg-blue-900 dark:text-blue-100\">\n          Welcome to our site!\n        </div>\n        <div className=\"w-full rounded-lg bg-green-100 p-4 text-center text-green-800 dark:bg-green-900 dark:text-green-100\">\n          Glad to have you\n        </div>",
+    "replace_all": false
+  }
+}
