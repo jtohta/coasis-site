@@ -4,7 +4,7 @@
       "Bash(npm test:*)",
       "Bash(npx jest:*)",
       "Bash(bun test:*)",
-      "Bash(npx tdd-guard:*)"
+      "Bash(.claude/tdd-guard-wrapper.sh:*)"
     ]
   },
   "hooks": {
@@ -14,7 +14,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx tdd-guard"
+            "command": ".claude/tdd-guard-wrapper.sh"
           }
         ]
       }
@@ -24,7 +24,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx tdd-guard"
+            "command": ".claude/tdd-guard-wrapper.sh"
           }
         ]
       }
@@ -35,7 +35,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx tdd-guard"
+            "command": ".claude/tdd-guard-wrapper.sh"
           }
         ]
       }
