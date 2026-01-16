@@ -26,7 +26,7 @@ const config: Config = {
   },
   reporters: [
     'default',
-    ['tdd-guard-jest', { projectRoot: '/Users/jtohta/projects/coasis-site' }],
+    ['tdd-guard-jest', { projectRoot: process.cwd() }],
   ],
 }
 
