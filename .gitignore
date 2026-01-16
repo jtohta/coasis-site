@@ -40,3 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .claude/tdd-guard/data/modifications.json
+.env.local
